@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px
+}
+
+body {
+
+}
+
+h1 {
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+button {
+    background-color: darkslategray;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    margin-right: 5rem;
+}
+
+.detail a {
+    color: lightskyblue;
+}
+
+.colmar {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+}
+
+.logo {
+    height: 32px;
+    margin-left: 24px;
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: right;
+}
+
+.navigation li {
+    display: inline-flex;
+    list-style: none;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.navigation a {
+   font-size: 1rem; 
+   text-decoration: none;
+   color: black;
+}
+
+ .hero {
+    background-color: lightgrey;
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+ }
+
+ .hero_image {
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    width: 60%;
+ }
+
+ .learn_something {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5rem;
+    width: 40%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    
+ }
+
+ .learn {
+    
+ }
+
+.latin {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+ .keep_practising {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+ }
+
+ .information {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+ }
+
+ .info {
+    margin-bottom: 2rem;
+ }
+
+ .practising {
+    margin-bottom: 1.5rem;
+
+ }
+
+ .latin {
+
+ }
+
+ .Emanuel {
+
+ }
+
+ .course_details {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+ }
+ .details_orientation{
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    line-height: 32px;
+ }
+ .details_campus {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 32px;
+ }
+
+ .details_guest{
+    display: inline-flex;
+    background-color: lightgray;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-content: center;
+    align-items: center;
+    line-height: 32px;
+    
+ }
+
+ .detail_img {
+    width: 35%;
+    margin-right: 1rem;
+ }
+
+ .detail {
+
+ }
+
+ .learning {
+
+ }
+
+ .heading {
+
+ }
+
+ .row_courses {
+
+ }
+ 
+ .courses {
+
+ }
+
+ .course {
+
+ }
+
+ .column {
+
+ }
+
+ .exhibits {
+
+ }
+
+ .exhibit {
+
+ }
+
+ .exhibit_img {
+
+ }
+
+ .copyright {
+
+ }
+
+ .footer_nav li{
+
+ }
+
+ .footer_nav a{
+
+ }
+
