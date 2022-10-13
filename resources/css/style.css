@@ -190,52 +190,155 @@ button {
     margin-right: 1rem;
  }
 
- .detail {
-
- }
-
  .learning {
-
+    background-color: lightgray;
+    text-align: center;
  }
 
  .heading {
-
+    padding-top: 2rem;
+    padding-bottom: 2rem;
  }
 
- .row_courses {
+.row_courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
  }
  
  .courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 
  }
 
  .course {
+    width: 25%;
+    background-color: white;
+    position: relative;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+ }
 
+ .learns {
+    width: 100%;
+
+ }
+
+ .career {
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
+ }
+
+ .title {
+    padding-left: 2rem;
+ }
+
+ .ciriculam {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 1.5rem;
+ }
+
+ .thesis {
+    text-align: center;
+    margin-bottom: 2rem;
+ }
+
+ .thesis_columns {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-left: 1.5rem;
+ }
+
+ .thesis_column {
+    display: flex;  
+    flex-direction: column;
+    width: 60%;
  }
 
  .column {
+    text-align: left; 
+ }
 
+ .video_info {
+    width: 100%;
+
+ }
+
+ .urban {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
  }
 
  .exhibits {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+
 
  }
+
+.detail {
+    margin-left: 1rem;
+
+}
 
  .exhibit {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: left;
+    align-content: center;
+    align-items: center;
 
  }
 
- .exhibit_img {
+ .exhibit_2 {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: left;
+    align-content: center;
+    align-items: center;
 
+ }
+
+
+
+ .exhibit_img {
+    width: 30%;
+
+ }
+
+ .footer_copy {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
  }
 
  .copyright {
+    margin-left: 1.5rem;
 
  }
 
- .footer_nav li{
+ .footer_nav {
+    display: inline-flex;
+    text-align: right;
+    
+ }
 
+ .footer_nav li{
+    display: inline-flex;
+    list-style: none;
+    margin-right: 10px;
  }
 
  .footer_nav a{
